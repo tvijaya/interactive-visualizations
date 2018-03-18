@@ -175,6 +175,7 @@ function populateSelection(){
 
 // refresh the data on screen when options chnage
 function optionChanged(sampleId){
+    buildPlots(sampleId);
     console.log("sampleId ", sampleId);
     url = "/metadata/" + sampleId;
     $myMetadata = Plotly.d3.select("#sampleMetadata");
@@ -191,9 +192,7 @@ function optionChanged(sampleId){
 
             });
   
-    });  
-
-    buildPlots(sampleId);
+    });    
 }
 
 //populate drop down for the first time
