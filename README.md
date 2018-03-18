@@ -7,7 +7,7 @@ In this assignment, I will build an interactive dashboard to explore the [Belly 
 ## Step 1 - Flask API
 
 Used Flask to design an API for my dataset and to serve the HTML and JavaScript required for my dashboard page.
-* First, created a template called `index.html` for your dashboard landing page. Used the Bootstrap grid system to create the structure of the dashboard page.
+* First, created a template called `index.html` for my dashboard landing page. Used the Bootstrap grid system to create the structure of the dashboard page.
 
 * Next, created the following routes for my api.
 
