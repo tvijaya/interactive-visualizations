@@ -117,6 +117,6 @@ Used Plotly.js to build interactive charts for my dashboard.
 * Created a Bubble Chart that uses data from your routes `/samples/<sample>` and `/otu` to plot the __Sample Value__ vs the __OTU ID__ for the selected sample.
 * Displayed the sample metadata from the route `/metadata/<sample>`
 * Created Gauge Chart to plot the Weekly Washing Frequency obtained from the route `/wfreq/<sample>`
-* Deployed the Flask app to Heroku. Visit Link : (https://vijaya-interactive-web.herokuapp.com/)
+* Deployed the Flask app to Heroku @ https://vijaya-interactive-web.herokuapp.com/
 
 
